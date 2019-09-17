@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count</title>
+</head>
+<body>
+    <h1>COUNT</h1>
+
+    <a href="{% url 'home' %}">Start Again</a>
+     <!-- Display full text -->
+    <h2>Your text:</h2>
+
+    <h3>{{ fulltextkey }}</h3>
+
+    <br />
+    <!-- Display length -->
+    {{ lenkey }}
+
+    <!-- Display count -->
+    <!-- {{ countkey }} -->
+    {{ wordcountkey }}
+</body>
+</html>
